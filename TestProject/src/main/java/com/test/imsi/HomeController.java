@@ -873,7 +873,7 @@ public class HomeController {
 		{
 			int noticeno = Integer.parseInt(req.getParameter("noticeno"));
 			
-			System.out.println("글번호 : " + noticeno);
+			System.out.println("!글번호 : " + noticeno);
 			
 			NoticeboardVO nvo = NoticeboardDAO.noticeboardViewData(noticeno);
 			
